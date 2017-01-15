@@ -44,7 +44,6 @@ $enum = array(
         <hr>
         <!--  PHP SERVER ENUMERATION  -->
         <h3><em>PHP Server Enumeration</em></h3>
-        <p>This is a way to enumerate server data under is done the request by the victim</p>
         <?php //echo "<pre>"; print_r($enum); echo "</pre>"?>
         <?php foreach ($enum as $global_var_name => $global_var_content) { ?>
         <h4><?php echo $global_var_name ?></h4>
